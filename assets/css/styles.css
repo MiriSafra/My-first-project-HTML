@@ -1,0 +1,270 @@
+#main{
+  display: grid;
+
+  height: 100vh;
+
+
+  grid-template-columns: repeat(8,auto);
+grid-template-rows: repeat(8 ,auto);
+
+
+  grid-template-areas: 
+  "h h h h h h h h "
+  "h h h h h h h h "
+  "ar ar ar ar ar ar ar ar"
+  "ar ar ar ar ar ar ar ar"
+  "ar ar ar ar ar ar ar ar"
+  "f f f f f f f f"
+  "f f f f f f f f"
+  "f f f f f f f f";
+}
+header{
+  grid-area: h ;
+  font-size: larger;
+}
+article{
+  grid-area: ar;
+}
+footer{
+  grid-area: f;
+}
+#row{
+width: 6px;;
+height: 10%;
+}
+#saleinfo{
+  background:url(../../assets/img/homepage.jpg);
+  background-size:100%; width:100%;height: 100%;
+  background-repeat:no-repeat ;
+  text-align:center;
+  background-size: cover;
+  padding:60px;
+  margin-top:0px;
+  border-bottom:7px grey solid;
+}
+
+#saleinfo .jumbotron{
+  border-radius:20px;
+  margin-top:20px;
+  max-width:800px;
+  margin:0 auto;
+  background-color:rgba(255,255,255,0.75);
+  border:6px solid grey;
+}
+
+#about{
+  padding:50px 0 60px;
+  text-align:center;
+  color:black;
+  font-size:1.2em;
+}
+
+.types{
+  padding:50px 0 60px;
+  text-align:center;
+  color:white;
+}
+
+.types p{
+  max-width:800px;
+  margin:0 auto;
+  font-size:20px;
+  text-align:justify;
+  padding:5px;
+}
+
+.types h1{
+  padding:20px;
+  margin-top:-20px;
+  color:grey;
+}
+
+.types h3{
+  margin-bottom:30px;
+  color:grey;
+}
+.server {
+
+  width: 10px;
+  bottom: 0;
+  right: 1px;
+  position: fixed;
+  inline-size: auto;
+}
+
+.server {
+  margin-left: 0%;
+  margin-bottom: 5%;
+  z-index: 1;
+}
+#gallery{
+  margin:0 auto;
+}
+
+i.fa.fa-home{
+  font-size:40px;
+  color:rgb(237,88,5);
+}
+
+i.fa.fa-safari{
+  font-size:40px;
+  color:rgb(237,88,5);
+}
+
+i.fa.fa-binoculars{
+  font-size:40px;
+  color:rgb(237,88,5);
+}
+
+#dark-section{
+  background-color:#252525;
+}
+
+img#logo{
+  max-height:20px;
+  margin-right:10px;
+  margin-top:-8px;
+}
+#details {
+  display: flex;
+  width: 150%;
+  flex-direction: column;
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#packages{
+  margin-top:70px;
+  margin-bottom:10px;
+  background-color:#181310;
+  color:white;
+}
+
+.menutype{
+  color:black;
+  border:solid 3px #696161;
+}
+
+.itemdescr{
+  border-bottom:solid #696161 2px;
+  padding-top:10px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:10px;
+  border-radius:10px;
+  background-color:WHITE;
+  box-shadow:5px 5px 2px #888888;
+}
+
+.nav-pills li.active > a, .nav-pills li > a:hover{
+  border-color:#dfd7ca;
+  color:black;
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+  text-decoration:none;
+  background-color:#f8f5f0;
+  color:black;
+}
+
+h4.bg-success.modal-title{
+  color:black;
+}
+
+a.btn.btn-default.active{
+  color:black;
+  font-size:0.95em;
+  background-color:#FB7900;
+  background:transparent !important;
+}
+
+.location{
+  color:black;
+  font-family:'Cookie';
+  font-size:1.4em;
+  border-right:4px grey solid;
+  border-radius:3px;
+}
+
+#extrainfo{
+  margin-bottom:30px;
+  color:inherit;
+  margin:35px;
+  padding:35px;
+}
+
+#extrainfo{
+  background-color:white;
+  border:none;
+  max-width:65%;
+}
+
+.navbar-inverse{
+  background-color:black;
+  border-color:grey;
+}
+
+a.navbar-brand.navbar-link{
+  color:grey;
+  font-size:1.8em;
+  background:transparent !important;
+  font-family:'Roboto';
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+  color:#ffffff;
+  background-color:black;
+}
+
+a{
+  color:grey !important;
+  text-decoration:none;
+}
+
+#open {
+  margin-top:70px;
+  padding-top:15px;
+  padding-left:20px;
+}
+.aa{
+  display:flex;
+  justify-content:right;
+  font-size: 2px;
+  
+}
+.aa li{
+  position: relative;
+}
+.aa li:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  bottom: 0;
+  z-index: 5;
+  transition: all 1s;
+  visibility: hidden;
+  
+}
+.aa li:hover:before{
+  visibility: visible;
+} 
+@media (min-width: 1200px) {
+.dropdown-toggle {
+background-color: var(--white);
+border-radius: var(--radius-10);
+}
+.dropdown-toggle menutype {
+background-color: var(--white);
+border-radius: var(--radius-10);
+}
+.dropdown{
+background-color: var(--white);
+border-radius: var(--radius-10);
+}
+.nav nav-pills nav-justified{
+background-color: var(--white);
+border-radius: var(--radius-10);
+}
+
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripster</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"> <!-- Include Bootstrap dependencies -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Registration-Form.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-Payment-Form.css">
+</head>
+
+<body>
+    <div class="server">
+        <img src="assets/img/כפתור נגישות.jpg"> 
+    </div>
+    <header>
+    <nav class="navbar navbar-inverse navbar-fixed-top"> <!-- Bootstrap inverse navigation bar -->
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html"><strong>Tripster</strong> </a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <!-- Navigation bar togglefor smaller screens. The logo also serves as a link to the index.html page -->
+            </div>
+            <div class="aa">
+                <div class="collapse navbar-collapse" id="navcol-1"><!-- Navigation bar to navigate between 3 html pages through the navigation bar -->
+                  <ul class="nav navbar-nav navbar-right">
+                      <li role="presentation"><a href="index.html">ABOUT US</a></li>
+                      <li role="presentation"><a href="packages.html">PACKAGES </a></li>
+                      <li class="active" role="presentation"><a href="contact.html">Booking </a></li>
+                      <li role="presentation"><a href="Details.html">For details</a></li>
+                  </ul>
+                </div>
+             </div>
+        </div>
+    </nav> <!-- Bootstrap inverse navigation bar ends -->
+</header>
+<article>
+    <ul class="nav nav-pills nav-justified" id="packages"><!-- A navtab with menu pills which on-click, expans a dropdown with sub-categories -->
+        <li class="dropdown" menutype=""><a class="dropdown-toggle menutype" data-toggle="dropdown" aria-expanded="false" href="bakery_menu.html" menutype="">HOMESTAY </a>
+            <ul class="dropdown-menu" role="menu">
+                <li role="presentation"><a href="#item1">estate stay in coorg</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" id="menutype" menutype="">JUNGLE SAFARI</a> 
+            <ul class="dropdown-menu" role="menu">
+                <li role="presentation"><a href="#item2"><strong>Chikmagalur Trek and Raft</strong> </a></li> <!-- On click, the use is navigated to the ID defined for the Chikmagalur Trek and Raft with description and images  -->
+                <li role="presentation"><a href="#item3"><strong>Muppane Nature Camp</strong> </a></li> <!-- On click, the use is navigated to the ID defined for the Muppane Nature Camp with description and images  -->
+            </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">TREKKING </a>
+            <ul class="dropdown-menu" role="menu">
+                <li role="presentation"><a href="#item4"><strong>Dudhsagar falls</strong> </a></li><!-- On click, the use is navigated to the ID defined for the Dudhsagar falls with description and images  -->
+                <li role="presentation"><a href="#item5"><strong>Dabbefalls</strong> </a></li><!-- On click, the use is navigated to the ID defined for the Dabbefalls with description and images  -->
+                <li role="presentation"><a href="#item6"><strong>Kudremukha Mountain Trails</strong> </a></li><!-- On click, the use is navigated to the ID defined for the Kudremukha Mountain Trails with description and images  -->
+            </ul>
+        </li>
+    </ul>
+    <div class="row itemdescr" id="item1" itemdescr="itemdescr">
+        <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+            <h4><strong>Estate stay in Coorg</strong> </h4> <!-- A brief description of the package -->
+            <p>A unique way of enjoying yourself in the natural environment of Coorgand also sharing the cultural homely and friendly atmosphere. Homestay isdifferent from going in the hotel or resort. It is like having home away fromhome! An opportunity
+                to get the feel of Coorg. A homestay vacation in Coorggives tourists the opportunity to stay with the hosts in a homely and friendlyenvironment. The natural, green, pollution free and quiet settings of homestaysin Coorg offer guests a
+                wonderful opportunity to relax or de-stress and enjoythe local cuisine </p>
+            <p>Vacation style: Camping, Family,Trekking, Short breaks </p>
+            <p>Activity Level: Mild </p>
+            <p>Price : Rs 2500.00 per person for a 2 day stay </p>
+        </div>
+        <div class="col-lg-3 col-md-3"><!-- A gallery section with images, on click, opening in a lighbox with arrows to allow toggle between the images --> 
+            <div class="thumbnail">
+                <a href="assets/img/coorg1.jpg" data-lightbox="choco"><img class="img-rounded img-responsive" src="assets/img/coorg1.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+            <div class="thumbnail">
+                <a href="assets/img/coorg2.jpg" data-lightbox="choco"><img class="img-rounded img-responsive" src="assets/img/coorg2.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+    </div>
+    <div class="row itemdescr" id="item2" itemdescr="itemdescr">
+        <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+            <h4><strong>ChikmagalurTrek and Raft</strong> </h4> <!-- A brief description of the product -->
+            <p>Trekking in Chikmagalur is famous becauseChikmagalur is in the heart of the famous trekking spots in Karnataka. Also,most of the trekking in Chikmagalur happen within 100 Km of the town. Camping, Jungle lodge stays, adventurepackage, camping
+                activities, river water rafting and more included. </p>
+            <p>Vacation style: Camping,Jungle, Trekking </p>
+            <p>Activity Level: Streneous </p>
+            <p>Price: Rs 2500.00 per person for a 2 day trek </p>
+        </div>
+        <div class="col-lg-3 col-md-3"> <!-- A gallery section with images, on click, opening in a lighbox with arrows to allow toggle between the images --> 
+            <div class="thumbnail">
+                <a href="assets/img/chikmagalur1.jpg" data-lightbox="choco"><img class="img-rounded img-responsive" src="assets/img/chikmagalur1.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+            <div class="thumbnail">
+                <a href="assets/img/chikmagalur2.jpg" data-lightbox="choco"><img class="img-rounded img-responsive" src="assets/img/chikmagalur2.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+    </div>
+    <div class="row itemdescr" id="item3" itemdescr="itemdescr">
+        <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+            <h4><strong>Muppane Nature Camp</strong> </h4> <!-- A brief description of the product -->
+            <p>Muppane forest range on the backwaters ofSharavathi has been identified and developed by the Forest Department for promotionof tourism. The Sharavathi Valley Wildlife Sanctuary isin the Shimoga District of Karnataka. A nature camp is set up
+                here&nbsp; by the forest department to attract students,youth and adventure lovers. </p>
+            <p>Vacation style: Camping, Family,Trekking, Short breaks </p>
+            <p>Activity Level: Mild </p>
+            <p>Price : Rs 2500.00 per person for a 2 day stay </p>
+        </div>
+        <div class="col-lg-3 col-md-3"> <!-- A gallery section with images, on click, opening in a lighbox with arrows to allow toggle between the images --> 
+            <div class="thumbnail">
+                <a href="assets/img/muppane1.jpg" data-lightbox="choco"><img class="img-rounded img-responsive" src="assets/img/muppane1.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+            <div class="thumbnail">
+                <a href="assets/img/muppane2.jpg" data-lightbox="choco"><img class="img-rounded img-responsive" src="assets/img/muppane2.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+    </div>
+    <div class="row itemdescr" id="item4" itemdescr="itemdescr">
+        <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+            <h4><strong>Dudhsagar Falls </strong></h4><!-- A brief description of the product -->
+            <p>Dudhsagar Falls (literallysea of milk) is a four-tiered waterfall located on the Mandovi River in theborder of the Indian state of Goa and Karnataka. During this trip we will setup a tent for each containing a sleeping bag.&nbsp; </p>
+            <p>Vacation style: Camping, Discovery, Guidedtours, Short breaks, Trekking </p>
+            <p>Activity Level: Extreme </p>
+            <p>Price : Rs 3000.00 perperson for a 2 day trek </p>
+        </div>
+        <div class="col-lg-3 col-md-3"><!-- A gallery section with images, on click, opening in a lighbox with arrows to allow toggle between the images --> 
+            <div class="thumbnail">
+                <a href="assets/img/dudhsagar1.jpg" data-lightbox="choco"><img class="img-rounded img-responsive" src="assets/img/dudhsagar1.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+            <div class="thumbnail">
+                <a href="assets/img/dudhsagar2.jpg" data-lightbox="choco"><img class="img-rounded img-responsive" src="assets/img/dudhsagar2.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+    </div>
+    <div class="row itemdescr" id="item5" itemdescr="itemdescr">
+        <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+            <h4><strong>Dabbe Falls</strong> </h4><!-- A brief description of the product -->
+            <p>Dabbe Falls is a pristine waterfall located near Hosagadde inSagar taluk, Karnataka state, India. Height of the falls is 110 metres. One cantake guide from Muppane nature camp which is 10km away from Dabbe Falls. Just 5km away from our home
+                stay you can enjoy jog falls, the 2nd highest waterfallin India. Refresh yourself by trekking many hidden falls, forts and caves inthe region. </p>
+            <p>Vacation style: Camping, Shortbreaks, Trekking </p>
+            <p>Activity Level: Moderate </p>
+            <p>Price : Rs 2500.00 perperson for a 2 day trek </p>
+        </div>
+        <div class="col-lg-3 col-md-3"> <!-- A gallery section with images, on click, opening in a lighbox with arrows to allow toggle between the images --> 
+            <div class="thumbnail">
+                <a href="assets/img/dabbe1.jpg" data-lightbox="choco"><img class="img-rounded img-responsive" src="assets/img/dabbe1.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+            <div class="thumbnail">
+                <a href="assets/img/dabbe2.jpg" data-lightbox="choco"><img class="img-rounded img-responsive" src="assets/img/dabbe2.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+    </div>
+    <div class="row itemdescr" id="item6" itemdescr="itemdescr">
+        <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+            <h4><strong>KudremukhaMountain Trails</strong> </h4><!-- A brief description of the product -->
+            <p>Experience a two dayKudremukh trek in Chikmagalur on your next weekend. Your trek begins as youembark on an overnight journey from Bangalore. Kudremukh is a small villagelocated at a distance of 96 km from the district of Chikmagalur and about
+                335km from Bangalore of Karnataka. Nestled in the Western Ghats, the forest isspread over an area of 600 sq km at an altitude of 1,894 m above sea level. Getcloser to the undying nature spread across Kudremukh. Enjoy the mesmerizingview
+                of the horse-face hills from the top itself. </p>
+            <p>Vacation style: Camping,Discovery, Guided tours, Trekking, Short breaks </p>
+            <p>Activity Level: Extreme </p>
+            <p>Price : Rs 3200.00 per person for a 2 day trek </p>
+        </div>
+        <div class="col-lg-3 col-md-3"> <!-- A gallery section with images, on click, opening in a lighbox with arrows to allow toggle between the images --> 
+            <div class="thumbnail">
+                <a href="assets/img/kudremukha1.jpg" data-lightbox="choco"><img class="img-rounded img-responsive" src="assets/img/kudremukha1.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+            <div class="thumbnail">
+                <a href="assets/img/kudremukha2.jpg" data-lightbox="choco"><img class="img-rounded img-responsive" src="assets/img/kudremukha2.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron" id="extrainfo"> <!--  A junbotron bannering additional info and updates-->
+        <h2><strong>What is included in this tour?</strong> </h2>
+        <p>The following facilities will be provided by us. </p>
+        <ul>
+            <li>All breakfasts, lunches and dinners &amp; dining </li>
+            <li>All accommodation in guest house </li>
+            <li>All transportation including Jeeps and coaches </li>
+            <li>Wildlife Safari&nbsp;for entire journey </li>
+        </ul>
+        <h2><strong>What is not included in this tour?</strong> </h2>
+        <p>The following facilities will not be provided by us. </p>
+        <ul>
+            <li>Travel insurance and other emergencies </li>
+            <li>Single room accommodations </li>
+            <li>Liquors, beers etc,. </li>
+            <li>Photography accessories like cameras etc. </li>
+        </ul>
+        <p><a class="btn btn-info" role="button" href="contact.html">contact us for more information</a></p>
+    </div>
+</article>
+    <div class="container-fluid">
+        <footer> <!-- Split Footer section with links to FB and twitter and all other related links and information  -->
+            <div class="row"> <!-- Section with three links to the 3 html pages-->
+                <div class="col-md-4 col-sm-6 footer-navigation">
+                    <h3><a href="index.html">Tripster </a></h3>
+                    <p class="links"><a href="index.html">About </a><strong> · </strong><a href="packages.html">Packages </a><strong> · </strong><a href="contact.html">Contact Us</a><strong> </strong></p>
+                    <p class="company-name">Tripster © 2023 </p>
+                </div>
+                <div class="col-md-4 col-sm-6 footer-contacts"> <!-- Section with address, phone and email information -->
+                    <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                        <p><span class="new-line-span"><strong> 57, Sampige Road,</strong> </span> Bengaluru, Karnataka</p>
+                    </div>
+                    <div><i class="fa fa-phone footer-contacts-icon"></i>
+                        <p class="footer-center-info email text-left"><strong>080 4128 0909</strong> </p>
+                    </div>
+                    <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                        <p><strong>tripster@email.com</strong> </p>
+                    </div>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="col-md-4 footer-about">
+                    <h4>About the company</h4><!-- Section with about information and FB/ twitter links and icons. Additionally linkedin/github links also can be added -->
+                    <p>We at Tripster are a friendly lot that finds solace and zest in travelling just as you, feel free to contact us for any details or even just a conversation to understand what we do and how we do it..&nbsp; </p>
+                    <div class="social-links social-icons"><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a><a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script><!-- Include the bootstrap JS requirements and the Gallery-lightbox dependencies-->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox-plus-jquery.min.js"></script>
+    <script src="assets/js/modal.js"></script>
+</body>
+
+</html>
